@@ -15,17 +15,17 @@
     </properties>
 
     <build>
-    <pluginManagement>
-    <plugins>
-        <plugin>
-            <groupId>com.github.spotbugs</groupId>
-            <artifactId>spotbugs-maven-plugin</artifactId>
-            <version>4.2.3</version>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <version>4.2.3</version>
 
 
-        </plugin>
-    </plugins>
-    </pluginManagement>
+                </plugin>
+            </plugins>
+        </pluginManagement>
 
         <plugins>
             <plugin>
@@ -44,7 +44,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>
 
